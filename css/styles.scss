@@ -1,0 +1,315 @@
+@import "mediaQueries";
+
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	font-family: "Times New Roman";
+}
+
+.headLine{
+	width:100%;
+	height:100%;
+	color: #2d2d2d;
+	font-size: 24px;
+	text-align: center;
+
+	p{
+		text-align: left;
+		padding: 20px 5% 20px 5%;
+		margin:0;
+	}
+}
+
+.banner{
+	position: relative;
+	background: #a6afbd;
+	width: 100%;
+	height: 100%;
+	min-height: 250px;
+
+	img{
+		display: block;
+		width: 100%;
+		height: 370px;
+
+		@include small{
+			display: block;
+			width: 100%;
+			height: 249px;
+		}
+	}	
+
+
+	p{
+		position: absolute;
+		font-size: 30px;
+		color: #ffffff;
+		margin: 0;
+		padding: 10px 5% 0 5%;
+		top: 10px;
+	}
+}
+
+.textPart{
+	font-family: "Arial";
+	font-size: 12px;
+	color: #2d2d2d;
+	padding: 20px 5% 8px 5%;
+
+	@include small{
+		font-size: 14px;
+	}
+
+	p{
+		margin-top: 0;
+	}
+}
+
+table{
+	width: 100%;
+	padding: 20px 5% 20px 5%;
+	margin: 0;
+
+	@include small{
+		padding: 0 5% 10px 5%;
+	}
+
+	.th{
+		position: relative;
+		text-align: center;
+		width: 50%;
+		vertical-align: top;
+		padding: 0 0 20px 0;
+
+		@include small{
+			display: block;
+    		width: 100%;
+		}	
+	}
+
+	img{
+		width: auto;
+
+		@include small{
+			width: 100%;
+		}
+	}
+
+	.title{
+		text-align: left;
+		font-family: "Times New Roman";
+		font-size: 18px;
+		color: #2d2d2d;
+		margin-top: 0;
+
+		@include small{
+			font-size: 22px;
+		}
+	}
+
+	.text{
+		text-align: left;
+		font-family: "Arial";
+		font-size: 12px;
+		color: #2d2d2d;
+
+		@include small{
+			font-size: 14px;
+		}
+	}
+
+	.ctaButton{
+		font: "Arial";
+		font-size: 12px;
+		font-weight: bold;
+		color: #ffffff;
+		background: #3b3b3b;
+		border-radius: 5px;
+		padding: 5px 30px;
+		box-sizing: border-box;
+		cursor: pointer;
+		border-style: none;
+
+		@include small{
+			font-size: 16px;
+		}
+	}
+
+	#buttonRight{
+		position: absolute;
+		text-align: right;
+		bottom: 20px;
+		right: 5px;
+
+		@include small{
+			display: block;
+    		width: 100%;
+    		bottom: 0;
+    		left: 0;
+    		text-align: center;
+		}
+	}
+
+}
+
+.newSection{
+	width: 100%;
+	padding: 0 5% 0 5%;
+	margin: 0;
+	text-align: center;
+	font-family: "Times New Roman";
+	font-size: 24px;
+	color: #2d2d2d;
+
+	@include small{
+		font-size: 30px;
+	}
+
+	th{
+		width: 33.3%;
+
+		@include small{
+			width: 5%;
+		}
+	}
+}
+
+.articleDesktop{
+	text-align: center;
+
+	th{
+		width: 50%;
+		padding: 0 0 20px 0;
+
+		@include small{
+			display: block;
+			width: 100%;
+		}
+	}
+
+	div{
+		position: relative;
+		width: 270px;
+		margin: auto;
+		padding: 0 0 20px 0;
+
+		@include small{
+			width: 100%;
+		}
+	}
+
+	img{
+		margin-bottom: 10px;
+		visibility: visible;
+
+		@include small {
+			display: none;
+		}
+	}
+
+	.textArticle2{
+		margin-bottom: 20px;
+	}
+
+	.hrMobile{
+		display: none;
+
+		@include small{
+			display: block;
+		}
+	}
+
+	.buttonLeft{
+		position: absolute;
+		left: 0;
+		bottom: 0;
+
+		@include small{
+			left: 0;
+	    	width: 100%;
+		}	
+	}
+}
+
+.form{
+	padding: 0 5% 0 5%;
+	margin: 0;
+	text-align: center;
+
+	form{
+		background: #383838;
+	}
+
+	.table{
+		width: 100%;
+		padding: 17px 5% 25px 5%;
+	
+		@include small{
+			padding: 17px 5% 25px 5%;
+		}
+	}
+
+
+	th{
+		width: 50%;
+		padding: 10px 10px 0 10px;
+		box-sizing: border-box; 
+		text-align: left;
+		font-family: "Arial";
+		font-size: 12px;
+		color: #ffffff;
+
+		@include small{
+			display: block;
+			width: 100%
+		}
+	}
+
+	input{
+		border-radius: 10px;
+		width: 100%;
+		background: #2d2d2d;
+		border:none;
+		padding: 7px 5px 7px 5px;
+		box-sizing: border-box;
+
+	}
+
+	p{
+		margin: 0 0 2px 5px;
+	}
+
+	.subscribe{
+		margin-top: 16px;
+		color: #ffffff;
+		background: #5a5a5a;
+		font-size: 12px;
+		font-weight: bold;
+		cursor: pointer;
+
+		@include small{
+			font-size: 16px;
+		}
+	}
+}
+
+
+
+.footer{
+	padding: 20px 5% 20px 5%;
+	margin: 0;
+	text-align: center;
+	font-family: "Arial";
+	font-size: 10px;
+	color: #5b5b5b;
+
+	a{
+		color:#5b5b5b;
+	}
+
+	.stick{
+		display: inline-block;
+		margin-left: 5px;
+	}
+}

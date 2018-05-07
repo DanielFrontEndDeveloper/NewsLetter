@@ -1,0 +1,13 @@
+//MEDIA QUERIES
+
+@mixin small {
+  @media (min-width: 310px) and (max-width: 768px) {
+	@content;
+  }
+}
+
+@mixin very-small {
+  @media (min-width: 310px) and (max-width: 485px) {
+	@content;
+  }
+}

@@ -1,0 +1,231 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: "Times New Roman"; }
+
+.headLine {
+  width: 100%;
+  height: 100%;
+  color: #2d2d2d;
+  font-size: 24px;
+  text-align: center; }
+  .headLine p {
+    text-align: left;
+    padding: 20px 5% 20px 5%;
+    margin: 0; }
+
+.banner {
+  position: relative;
+  background: #a6afbd;
+  width: 100%;
+  height: 100%;
+  min-height: 250px; }
+  .banner img {
+    display: block;
+    width: 100%;
+    height: 370px; }
+    @media (min-width: 310px) and (max-width: 768px) {
+      .banner img {
+        display: block;
+        width: 100%;
+        height: 249px; } }
+  .banner p {
+    position: absolute;
+    font-size: 30px;
+    color: #ffffff;
+    margin: 0;
+    padding: 10px 5% 0 5%;
+    top: 10px; }
+
+.textPart {
+  font-family: "Arial";
+  font-size: 12px;
+  color: #2d2d2d;
+  padding: 20px 5% 8px 5%; }
+  @media (min-width: 310px) and (max-width: 768px) {
+    .textPart {
+      font-size: 14px; } }
+  .textPart p {
+    margin-top: 0; }
+
+table {
+  width: 100%;
+  padding: 20px 5% 20px 5%;
+  margin: 0; }
+  @media (min-width: 310px) and (max-width: 768px) {
+    table {
+      padding: 0 5% 10px 5%; } }
+  table .th {
+    position: relative;
+    text-align: center;
+    width: 50%;
+    vertical-align: top;
+    padding: 0 0 20px 0; }
+    @media (min-width: 310px) and (max-width: 768px) {
+      table .th {
+        display: block;
+        width: 100%; } }
+  table img {
+    width: auto; }
+    @media (min-width: 310px) and (max-width: 768px) {
+      table img {
+        width: 100%; } }
+  table .title {
+    text-align: left;
+    font-family: "Times New Roman";
+    font-size: 18px;
+    color: #2d2d2d;
+    margin-top: 0; }
+    @media (min-width: 310px) and (max-width: 768px) {
+      table .title {
+        font-size: 22px; } }
+  table .text {
+    text-align: left;
+    font-family: "Arial";
+    font-size: 12px;
+    color: #2d2d2d; }
+    @media (min-width: 310px) and (max-width: 768px) {
+      table .text {
+        font-size: 14px; } }
+  table .ctaButton {
+    font: "Arial";
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #3b3b3b;
+    border-radius: 5px;
+    padding: 5px 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-style: none; }
+    @media (min-width: 310px) and (max-width: 768px) {
+      table .ctaButton {
+        font-size: 16px; } }
+  table #buttonRight {
+    position: absolute;
+    text-align: right;
+    bottom: 20px;
+    right: 5px; }
+    @media (min-width: 310px) and (max-width: 768px) {
+      table #buttonRight {
+        display: block;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        text-align: center; } }
+
+.newSection {
+  width: 100%;
+  padding: 0 5% 0 5%;
+  margin: 0;
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 24px;
+  color: #2d2d2d; }
+  @media (min-width: 310px) and (max-width: 768px) {
+    .newSection {
+      font-size: 30px; } }
+  .newSection th {
+    width: 33.3%; }
+    @media (min-width: 310px) and (max-width: 768px) {
+      .newSection th {
+        width: 5%; } }
+
+.articleDesktop {
+  text-align: center; }
+  .articleDesktop th {
+    width: 50%;
+    padding: 0 0 20px 0; }
+    @media (min-width: 310px) and (max-width: 768px) {
+      .articleDesktop th {
+        display: block;
+        width: 100%; } }
+  .articleDesktop div {
+    position: relative;
+    width: 270px;
+    margin: auto;
+    padding: 0 0 20px 0; }
+    @media (min-width: 310px) and (max-width: 768px) {
+      .articleDesktop div {
+        width: 100%; } }
+  .articleDesktop img {
+    margin-bottom: 10px;
+    visibility: visible; }
+    @media (min-width: 310px) and (max-width: 768px) {
+      .articleDesktop img {
+        display: none; } }
+  .articleDesktop .textArticle2 {
+    margin-bottom: 20px; }
+  .articleDesktop .hrMobile {
+    display: none; }
+    @media (min-width: 310px) and (max-width: 768px) {
+      .articleDesktop .hrMobile {
+        display: block; } }
+  .articleDesktop .buttonLeft {
+    position: absolute;
+    left: 0;
+    bottom: 0; }
+    @media (min-width: 310px) and (max-width: 768px) {
+      .articleDesktop .buttonLeft {
+        left: 0;
+        width: 100%; } }
+
+.form {
+  padding: 0 5% 0 5%;
+  margin: 0;
+  text-align: center; }
+  .form form {
+    background: #383838; }
+  .form .table {
+    width: 100%;
+    padding: 17px 5% 25px 5%; }
+    @media (min-width: 310px) and (max-width: 768px) {
+      .form .table {
+        padding: 17px 5% 25px 5%; } }
+  .form th {
+    width: 50%;
+    padding: 10px 10px 0 10px;
+    box-sizing: border-box;
+    text-align: left;
+    font-family: "Arial";
+    font-size: 12px;
+    color: #ffffff; }
+    @media (min-width: 310px) and (max-width: 768px) {
+      .form th {
+        display: block;
+        width: 100%; } }
+  .form input {
+    border-radius: 10px;
+    width: 100%;
+    background: #2d2d2d;
+    border: none;
+    padding: 7px 5px 7px 5px;
+    box-sizing: border-box; }
+  .form p {
+    margin: 0 0 2px 5px; }
+  .form .subscribe {
+    margin-top: 16px;
+    color: #ffffff;
+    background: #5a5a5a;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer; }
+    @media (min-width: 310px) and (max-width: 768px) {
+      .form .subscribe {
+        font-size: 16px; } }
+
+.footer {
+  padding: 20px 5% 20px 5%;
+  margin: 0;
+  text-align: center;
+  font-family: "Arial";
+  font-size: 10px;
+  color: #5b5b5b; }
+  .footer a {
+    color: #5b5b5b; }
+  .footer .stick {
+    display: inline-block;
+    margin-left: 5px; }
+
+/*# sourceMappingURL=styles.css.map */
