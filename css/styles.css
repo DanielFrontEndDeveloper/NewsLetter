@@ -200,8 +200,10 @@ table {
     width: 100%;
     background: #2d2d2d;
     border: none;
-    padding: 7px 5px 7px 5px;
-    box-sizing: border-box; }
+    padding: 10px;
+    box-sizing: border-box;
+    outline: 0;
+    color: white;}
   .form p {
     margin: 0 0 2px 5px; }
   .form .subscribe {
