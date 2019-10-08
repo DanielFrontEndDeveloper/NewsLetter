@@ -196,7 +196,7 @@ table {
         display: block;
         width: 100%; } }
   .form input {
-    border-radius: 10px;
+    border-radius: 5px;
     width: 100%;
     background: #2d2d2d;
     border: none;
